@@ -28,7 +28,7 @@ class Machine {
         std::vector<Metric*> metrics;
         // <Metric*> ca vector de pointeri deoarece:
         // 1. Metric e abstracta - are collect() = 0;. Nu pot crea obiecte de tip Metric direct, deci nu le pot nici adauga in vector
-        // 2. Si daca nu ar fi abtracta, pe mine ma intereseaza sa adaug in vector subclase Metric (CPU, Memory, Disk). Fara pointer as pierde
-        // toate valorile specifice lor (maxValue, threshold etc.)
+        // 2. Si daca nu ar fi abtracta, pe mine ma intereseaza sa adaug in vector subclase Metric (CPU, Memory, Disk). 
+        // Fara pointer as pierde toate valorile specifice lor (maxValue, threshold etc.)
         // cu vector<Metric*> polimorfismul functioneaza corect
 };
