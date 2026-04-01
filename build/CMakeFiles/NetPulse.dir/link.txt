@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/NetPulse.dir/link.d CMakeFiles/NetPulse.dir/src/Logger.cpp.o CMakeFiles/NetPulse.dir/src/Metric.cpp.o CMakeFiles/NetPulse.dir/src/main.cpp.o -o NetPulse

@@ -1,0 +1,7 @@
+[2026-03-31 19:14:40] [INFO] Argus starting up
+[2026-03-31 19:14:40] [WARNING] This is a test warning
+[2026-03-31 19:14:40] [ERROR] Invalid value for cpu_usage: -5.000000
+[2026-03-31 19:16:52] [INFO] Argus starting up
+[2026-03-31 19:16:52] [WARNING] This is a test warning
+[2026-03-31 19:16:52] [ERROR] Invalid value for cpu_usage: -5.000000
+[2026-03-31 20:49:41] [INFO] Argus is waking up
