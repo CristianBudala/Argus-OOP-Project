@@ -23,3 +23,5 @@ void Machine::displayAll() const {
 const std::string& Machine::getHostname() const { return hostname; }
 
 const std::string& Machine::getIpAddress() const { return ipAddress; }
+
+const std::vector<Metric*>& Machine::getMetrics() const { return metrics; }

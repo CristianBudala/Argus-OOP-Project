@@ -1,15 +1,11 @@
-#include "../include/Logger.h"
-#include "../include/Exceptions.h"
-#include "../include/CPUMetric.h"
-#include "../include/MemoryMetric.h"
-#include "../include/DiskMetric.h"
-#include "../include/NetworkMetric.h"
+#include "../include/Argus.h"
 
 int main(){
 
     Logger::init("argus.log");
     Logger::info("Argus is waking up");
     
+    /*
     CPUMetric cpu("cpu_usage", 90.0);
     MemoryMetric ram("ram_usage", 16200.0);
     DiskMetric disk("disk_usage", 512.0);
@@ -29,6 +25,9 @@ int main(){
     std::cout << "---------------------" << std::endl;
     std::cout << "CPU exceeded threshold? " << (cpu.isExceeded() ? "YES" : "NO") << "\n";
     std::cout << "CPU usage %: " << cpu.getUsagePercent() << "%\n";
+    */
+
+    Menu::getInstance().run();
 
 
     Logger::close();

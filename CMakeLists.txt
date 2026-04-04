@@ -16,7 +16,22 @@ else()
 endif()
 
 # Main executable
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME}
+    src/main.cpp
+    src/Logger.cpp
+    src/Metric.cpp
+    src/HardwareMetric.cpp
+    src/ThresholdMetric.cpp
+    src/CPUMetric.cpp
+    src/DiskMetric.cpp
+    src/MemoryMetric.cpp
+    src/NetworkMetric.cpp
+    src/Machine.cpp
+    src/Alert.cpp
+    src/Menu.cpp
+)
+
+target_include_directories(${PROJECT_NAME} PRIVATE include)
 
 if(GITHUB_ACTIONS)
     message("NOTE: GITHUB_ACTIONS defined")
