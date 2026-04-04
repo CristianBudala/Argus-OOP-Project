@@ -54,7 +54,10 @@ void Menu::collectMetrics() {
         for (const auto& metric : m->getMetrics()){
             ThresholdMetric* tm = dynamic_cast<ThresholdMetric*>(metric);
             if (tm != nullptr && tm->isExceeded()){
-                Alert alert(m->getHostname(), tm->getName(), tm->getValue(), tm->getThreshold(), std::chrono::system_clock::now());
+                HardwareMetric* hm = dynamic_cast<HardwareMetric*>(metric);
+                double usagePercent = hm ? hm->getUsagePercent() : -1.0;
+
+                Alert alert(m->getHostname(), tm->getName(), tm->getValue(), tm->getThreshold(), std::chrono::system_clock::now(), tm->getUnit(), usagePercent);
                 alerts.push_back(alert);
                 Logger::info("Alert generated for: " + tm->getName());
             }
@@ -102,22 +105,28 @@ void Menu::addMetric() {
         }
         case 2: {
             std::string name;
-            double maxValue;
+            double maxCapacity;
+            double threshold;
             std::cout << "Name: ";
             std::cin >> name;
-            std::cout << "Maximum value: ";
-            std::cin >> maxValue;
-            machine->addMetric(new MemoryMetric(name, maxValue));
+            std::cout << "Maximum capacity: ";
+            std::cin >> maxCapacity;
+            std::cout << "Threshold: ";
+            std::cin >> threshold;
+            machine->addMetric(new MemoryMetric(name, maxCapacity, threshold));
             break;
         }
         case 3: {
             std::string name;
-            double maxValue;
+            double maxCapacity;
+            double threshold;
             std::cout << "Name: ";
             std::cin >> name;
-            std::cout << "Maximum value: ";
-            std::cin >> maxValue;
-            machine->addMetric(new DiskMetric(name, maxValue));
+            std::cout << "Maximum capacity: ";
+            std::cin >> maxCapacity;
+            std::cout << "Threshold: ";
+            std::cin >> threshold;
+            machine->addMetric(new DiskMetric(name, maxCapacity, threshold));
             break;
         }
         case 4: {
