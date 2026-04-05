@@ -5,6 +5,14 @@ A system monitor application  with analog style display for Homelabs, built in C
 Argus monitors multiple machines by collecting and tracking hardware and network metrics (CPU, Memory, Disk, Network). It detects anomalies and threshold violations and generated alerts automatically.
 
 ## Class Hierarchy
+##### Legenda:
+| Simbol | Inseamna |
+|---|---|
+| `-` | `private` |
+| `#` | `protected` |
+| `+` | `public` |
+| `$` | `static` |
+| `*` | `pur virtual/abstract` |
 
 ```mermaid
 classDiagram
@@ -116,14 +124,6 @@ classDiagram
 ### Diamond Inheritance
 
 `CPUMetric`, `MemoryMetric` and `DiskMetric` each inherit from both `HardwareMetric` and `ThresholdMetric`, both of which inherit from `Metric` using `virtual public`. This ensured a single shared instance of `Metric` per object.
-
-| Simbol | Inseamna |
-|---|---|
-| `-` | `private` |
-| `#` | `protected` |
-| `+` | `public` |
-| `$` | `static` |
-| `*` | `pur virtual/abstract` |
 
 ```mermaid
 graph TD
