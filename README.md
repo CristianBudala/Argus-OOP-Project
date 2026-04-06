@@ -155,7 +155,7 @@ graph TD
 | Encapsulare | `private`/`protected`/`public` folosite; `value` e `protected` pentru suprascriere in subclase |
 | Regula celor Trei | `Machine` are `destructor` custom. Am decis ca copierea nu are sens pentru o masina monitorizata, deci am interzis explicit `constructorul de copiere` și `operator=` |
 | `std::vector` | `Machine` contine `vector<Metric*>`; `Menu` contine `vector<Machine*>` si `vector<Alert>` |
-| Polimorfism si clase abstracte | `Metric` e abstracta (`collect() = 0`); `operator<<` prin virtual `afisare()` |
+| Polimorfism si clase abstracte | `operator<<` in Metric, `collect()` in Machine::collectAll(), `isExceeded()` in collectMetrics() |
 | Exceptii custom | `ArgusException`, `InvalidMetricException`, `ThresholdExceededException`, `MachineNotFoundException`, `InvalidInputException` |
 | Meniu | `add/remove machines`, `add metrics`, `collect`, `display`, `alerts` |
 | Singleton | `Menu::getInstance()` — instanta unica, copie stearsa |
