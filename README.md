@@ -113,8 +113,8 @@ classDiagram
     HardwareMetric <|-- DiskMetric
 
     ThresholdMetric <|-- CPUMetric
-    ThresholdMetric <|-- CPUMetric
-    ThresholdMetric <|-- CPUMetric
+    ThresholdMetric <|-- MemoryMetric
+    ThresholdMetric <|-- DiskMetric
 
     Machine o-- Metric : vector~Metric*~
     Menu o-- Machine : vector~Machine*~
