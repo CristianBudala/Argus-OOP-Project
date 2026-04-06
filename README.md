@@ -121,9 +121,9 @@ classDiagram
     Menu o-- Alert : vector~Alert~
 ```
 
-### Diamond Inheritance
+### Mostenirea diamant
 
-`CPUMetric`, `MemoryMetric` and `DiskMetric` each inherit from both `HardwareMetric` and `ThresholdMetric`, both of which inherit from `Metric` using `virtual public`. This ensured a single shared instance of `Metric` per object.
+`CPUMetric`, `MemoryMetric` si `DiskMetric` mostenesc fiecare atat din `HardwareMetric`, cat si din `ThresholdMetric`, ambele mostenind din `Metric` folosind `virtual public`. Acest lucru a asigurat o singura instanta partajata a `Metric` per obiect.
 
 ```mermaid
 graph TD
