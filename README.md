@@ -149,7 +149,7 @@ graph TD
 | Requirement | Implementation |
 |---|---|
 | Minim 10 clase | 12 clase: `Metric`, `HardwareMetric`, `ThresholdMetric`, `CPUMetric`, `MemoryMetric`, `DiskMetric`, `NetworkMetric`, `Machine`, `Alert`, `Logger`, `Menu`, `Exceptions` |
-| Ierarhie de mostenire (6+ classes) | `Metric` → `HardwareMetric` → `CPUMetric/MemoryMetric/DiskMetric` (3 niveluri) |
+| Ierarhie de mostenire (6+ clase) | `Metric` → `HardwareMetric` → `CPUMetric/MemoryMetric/DiskMetric` (3 niveluri) |
 | Mostenire diamant | `CPUMetric`, `MemoryMetric`, `DiskMetric` cu `virtual public` |
 | Metode si membri static | `Logger` — (`init`, `info`, `warning`, `error`, `close`) |
 | Encapsulare | `private`/`protected`/`public` folosite; `value` e `protected` pentru suprascriere in subclase |
