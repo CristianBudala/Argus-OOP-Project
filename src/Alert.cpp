@@ -17,3 +17,11 @@ void Alert::displayAlert() const {
                     << usagePercent << "% > " << threshold << "%)";
     std::cout << " (at " << std::put_time(std::localtime(&time), "%H:%M:%S") << ")\n";
 }
+
+const std::string& Alert::getMetricName() const {
+    return metricName;
+}
+
+const std::string& Alert::getMachineName() const {
+    return machineName;
+}

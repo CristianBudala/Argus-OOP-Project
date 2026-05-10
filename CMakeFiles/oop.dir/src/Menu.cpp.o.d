@@ -198,6 +198,9 @@ CMakeFiles/oop.dir/src/Menu.cpp.o: \
  /usr/include/c++/13/span /usr/include/c++/13/variant \
  /usr/include/c++/13/bits/ranges_algobase.h \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/Exceptions.h \
+ /home/cristian/Desktop/Argus-OOP-Project/src/../include/MetricHistory.h \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/Alert.h \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/Logger.h \
  /usr/include/c++/13/fstream \
@@ -210,4 +213,5 @@ CMakeFiles/oop.dir/src/Menu.cpp.o: \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/MemoryMetric.h \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/DiskMetric.h \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/NetworkMetric.h \
+ /home/cristian/Desktop/Argus-OOP-Project/src/../include/MetricFactory.h \
  /usr/include/c++/13/cassert /usr/include/assert.h

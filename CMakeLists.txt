@@ -29,6 +29,7 @@ add_executable(${PROJECT_NAME}
     src/Machine.cpp
     src/Alert.cpp
     src/Menu.cpp
+    src/MetricFactory.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE include)

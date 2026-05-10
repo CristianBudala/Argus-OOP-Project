@@ -2,7 +2,10 @@
 #include <string>
 #include <iostream>
 #include <chrono>
+#include <vector>
 #include "Exceptions.h"
+#include "MetricHistory.h"
+#include "IMetricObserver.h"
 
 // Generic metric class that forces any subtype to define collect()
 class Metric {
@@ -11,6 +14,11 @@ protected:
     double value; // (ex. 27.3%)
     std::string unit; // (ex. "%", "MB", "MB/s")
     std::chrono::system_clock::time_point lastCollected; // timestamp
+
+    MetricHistory<double> history{10};
+
+    std::vector<IMetricObserver*> observers;
+    std::string machineName;
 
 public:
     Metric(const std::string& name, const std::string& unit);
@@ -28,4 +36,10 @@ public:
 
     // Print
     friend std::ostream& operator<<(std::ostream& os, const Metric& m);
+
+    void addObserver(IMetricObserver* observer);
+    void setMachineName(const std::string& name);
+
+protected:
+    void notifyObservers();
 };

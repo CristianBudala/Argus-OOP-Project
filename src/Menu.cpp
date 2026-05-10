@@ -6,6 +6,7 @@
 #include "../include/NetworkMetric.h"
 #include "../include/Logger.h"
 #include "../include/Exceptions.h"
+#include "../include/MetricFactory.h"
 #include <iostream>
 #include <limits>
 #include <string>
@@ -83,63 +84,31 @@ void Menu::addMetric() {
         throw InvalidInputException("Machine index out of range");
     Machine* machine = machines[index - 1];
 
-    std::cout << "\nMetric type: \n";
-    std::cout << "1. CPU\n";
-    std::cout << "2. Memory\n";
-    std::cout << "3. Disk\n";
-    std::cout << "4. Network\n";
-    std::cout << "Choose type: ";
-    int type{};
+    std::cout << "\nMetric type (CPU/Memory/Disk/Network): ";
+    std::string type;
     std::cin >> type;
 
-    switch(type){
-        case 1: {
-            std::string name;
-            double threshold;
-            std::cout << "Name: ";
-            std::cin >> name;
-            std::cout << "Threshold (%): ";
-            std::cin >> threshold;
-            machine->addMetric(new CPUMetric(name, threshold));
-            break;
-        }
-        case 2: {
-            std::string name;
-            double maxCapacity;
-            double threshold;
-            std::cout << "Name: ";
-            std::cin >> name;
-            std::cout << "Maximum capacity: ";
-            std::cin >> maxCapacity;
-            std::cout << "Threshold: ";
-            std::cin >> threshold;
-            machine->addMetric(new MemoryMetric(name, maxCapacity, threshold));
-            break;
-        }
-        case 3: {
-            std::string name;
-            double maxCapacity;
-            double threshold;
-            std::cout << "Name: ";
-            std::cin >> name;
-            std::cout << "Maximum capacity: ";
-            std::cin >> maxCapacity;
-            std::cout << "Threshold: ";
-            std::cin >> threshold;
-            machine->addMetric(new DiskMetric(name, maxCapacity, threshold));
-            break;
-        }
-        case 4: {
-            std::string name;
-            std::cout << "Name: ";
-            std::cin >> name;
-            machine->addMetric(new NetworkMetric(name));
-            break;
-        }
-        default:
-            throw InvalidInputException("Options must be between 1 and 4");
-            break;
+    std::string name;
+    std::cout << "\nName: ";
+    std::cin >> name;
+
+    double param1 = 0.0, param2 = 0.0;
+    
+    for(auto& c : type)
+        c = tolower(c);
+    
+    if (type == "cpu") {
+        std::cout << "Threshold (%): ";
+        std::cin >> param1;
+    } else if (type == "memory" || type == "disk"){
+        std::cout  << "Maximum capacity: ";
+        std::cin >> param1;
+        std::cout << "Threshold (%): ";
+        std::cin >> param2;
     }
+
+    machine->addMetric(MetricFactory::create(type, name, param1, param2));
+    Logger::info("Metric added: " + name + " to " + machine->getHostname());
 }
 
 void Menu::displayAlerts() const {

@@ -8,6 +8,7 @@ void DiskMetric::collect() {
     auto gen = std::mt19937(std::random_device{}());
     value = std::uniform_real_distribution<double>{0, maxValue}(gen);
     lastCollected = std::chrono::system_clock::now();
+    history.add(value);
 }
 
 bool DiskMetric::isExceeded() const {

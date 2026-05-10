@@ -1,4 +1,6 @@
 #include "../include/Metric.h"
+#include "../include/ThresholdMetric.h"
+#include "../include/HardwareMetric.h"
 #include <iomanip>
 #include <ctime>
 
@@ -27,3 +29,28 @@ std::ostream& operator<<(std::ostream& os, const Metric& m) {
 // care are nevoie de acces la valorile private/protejate pentru print (m.name, m.value etc.)
 
 // value e protected nu private pt ca subclasele vor scrie in el din collect()
+
+void Metric::addObserver(IMetricObserver* observer) {
+    observers.push_back(observer);
+}
+
+void Metric::setMachineName(const std::string& name) {
+    machineName = name;
+}
+
+void Metric::notifyObservers() {
+    ThresholdMetric* tm = dynamic_cast<ThresholdMetric*>(this);
+    // this e metrica curenta - CPUMetric* / MemoryMetric* etc.
+    // daca dynamic_cast reuseste sa o trateze ca ThresholdMetric*, atunci metrica are threshold
+    // daca nu, inseamna ca e NetworkMetric si returneaza nullptr
+
+    if (tm != nullptr && tm->isExceeded()) {
+        Alert alert(machineName, name, value, tm->getThreshold(),
+                    std::chrono::system_clock::now(), 
+                    unit, dynamic_cast<HardwareMetric*>(this) ? 
+                    dynamic_cast<HardwareMetric*>(this)->getUsagePercent() : -1.0);
+        for (auto obs : observers)
+            obs->onThresholdExceeded(alert);
+    }
+}
+

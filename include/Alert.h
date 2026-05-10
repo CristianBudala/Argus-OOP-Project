@@ -10,6 +10,9 @@ public:
         const std::string& unit, double usagePercent = -1.0);
     ~Alert() = default;
 
+    const std::string& getMetricName() const;
+    const std::string& getMachineName() const;
+
     void displayAlert() const;
 
 private:

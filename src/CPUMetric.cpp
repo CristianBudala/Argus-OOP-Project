@@ -11,5 +11,6 @@ void CPUMetric::collect() {
     auto gen = std::mt19937(std::random_device{}());
     value = (std::uniform_real_distribution<double>{0.0, 100.0}(gen)); 
     lastCollected = std::chrono::system_clock::now();
+    history.add(value);
 } 
 // 0.0 - 99.9 (valoare aleatoare de CPU Usage, momentan e complicat de extras din sistem)

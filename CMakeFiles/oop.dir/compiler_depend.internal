@@ -253,6 +253,7 @@ CMakeFiles/oop.dir/src/CPUMetric.cpp.o
  /home/cristian/Desktop/Argus-OOP-Project/include/Exceptions.h
  /home/cristian/Desktop/Argus-OOP-Project/include/HardwareMetric.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Metric.h
+ /home/cristian/Desktop/Argus-OOP-Project/include/MetricHistory.h
  /home/cristian/Desktop/Argus-OOP-Project/include/ThresholdMetric.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -278,6 +279,7 @@ CMakeFiles/oop.dir/src/CPUMetric.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/enable_special_members.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -328,6 +330,7 @@ CMakeFiles/oop.dir/src/CPUMetric.cpp.o
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -365,6 +368,7 @@ CMakeFiles/oop.dir/src/CPUMetric.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h
@@ -535,6 +539,7 @@ CMakeFiles/oop.dir/src/DiskMetric.cpp.o
  /home/cristian/Desktop/Argus-OOP-Project/include/Exceptions.h
  /home/cristian/Desktop/Argus-OOP-Project/include/HardwareMetric.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Metric.h
+ /home/cristian/Desktop/Argus-OOP-Project/include/MetricHistory.h
  /home/cristian/Desktop/Argus-OOP-Project/include/ThresholdMetric.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -560,6 +565,7 @@ CMakeFiles/oop.dir/src/DiskMetric.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/enable_special_members.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -610,6 +616,7 @@ CMakeFiles/oop.dir/src/DiskMetric.cpp.o
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -647,6 +654,7 @@ CMakeFiles/oop.dir/src/DiskMetric.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h
@@ -816,6 +824,7 @@ CMakeFiles/oop.dir/src/HardwareMetric.cpp.o
  /home/cristian/Desktop/Argus-OOP-Project/include/Exceptions.h
  /home/cristian/Desktop/Argus-OOP-Project/include/HardwareMetric.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Metric.h
+ /home/cristian/Desktop/Argus-OOP-Project/include/MetricHistory.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -840,6 +849,7 @@ CMakeFiles/oop.dir/src/HardwareMetric.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/enable_special_members.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -887,6 +897,7 @@ CMakeFiles/oop.dir/src/HardwareMetric.cpp.o
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -922,6 +933,7 @@ CMakeFiles/oop.dir/src/HardwareMetric.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h
@@ -1314,6 +1326,7 @@ CMakeFiles/oop.dir/src/Machine.cpp.o
  /home/cristian/Desktop/Argus-OOP-Project/include/Exceptions.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Machine.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Metric.h
+ /home/cristian/Desktop/Argus-OOP-Project/include/MetricHistory.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -1338,6 +1351,7 @@ CMakeFiles/oop.dir/src/Machine.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/enable_special_members.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -1385,6 +1399,7 @@ CMakeFiles/oop.dir/src/Machine.cpp.o
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -1420,6 +1435,7 @@ CMakeFiles/oop.dir/src/Machine.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h
@@ -1563,6 +1579,7 @@ CMakeFiles/oop.dir/src/MemoryMetric.cpp.o
  /home/cristian/Desktop/Argus-OOP-Project/include/HardwareMetric.h
  /home/cristian/Desktop/Argus-OOP-Project/include/MemoryMetric.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Metric.h
+ /home/cristian/Desktop/Argus-OOP-Project/include/MetricHistory.h
  /home/cristian/Desktop/Argus-OOP-Project/include/ThresholdMetric.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -1588,6 +1605,7 @@ CMakeFiles/oop.dir/src/MemoryMetric.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/enable_special_members.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -1638,6 +1656,7 @@ CMakeFiles/oop.dir/src/MemoryMetric.cpp.o
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -1675,6 +1694,7 @@ CMakeFiles/oop.dir/src/MemoryMetric.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h
@@ -1851,6 +1871,8 @@ CMakeFiles/oop.dir/src/Menu.cpp.o
  /home/cristian/Desktop/Argus-OOP-Project/include/MemoryMetric.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Menu.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Metric.h
+ /home/cristian/Desktop/Argus-OOP-Project/include/MetricFactory.h
+ /home/cristian/Desktop/Argus-OOP-Project/include/MetricHistory.h
  /home/cristian/Desktop/Argus-OOP-Project/include/NetworkMetric.h
  /home/cristian/Desktop/Argus-OOP-Project/include/ThresholdMetric.h
  /usr/include/alloca.h
@@ -1878,6 +1900,7 @@ CMakeFiles/oop.dir/src/Menu.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/enable_special_members.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -1926,6 +1949,7 @@ CMakeFiles/oop.dir/src/Menu.cpp.o
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -1962,6 +1986,7 @@ CMakeFiles/oop.dir/src/Menu.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h
@@ -2106,6 +2131,7 @@ CMakeFiles/oop.dir/src/Metric.cpp.o
  /home/cristian/Desktop/Argus-OOP-Project/src/Metric.cpp
  /home/cristian/Desktop/Argus-OOP-Project/include/Exceptions.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Metric.h
+ /home/cristian/Desktop/Argus-OOP-Project/include/MetricHistory.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
@@ -2130,6 +2156,7 @@ CMakeFiles/oop.dir/src/Metric.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/enable_special_members.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -2177,6 +2204,7 @@ CMakeFiles/oop.dir/src/Metric.cpp.o
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -2212,6 +2240,7 @@ CMakeFiles/oop.dir/src/Metric.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h
@@ -2353,6 +2382,7 @@ CMakeFiles/oop.dir/src/NetworkMetric.cpp.o
  /home/cristian/Desktop/Argus-OOP-Project/src/NetworkMetric.cpp
  /home/cristian/Desktop/Argus-OOP-Project/include/Exceptions.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Metric.h
+ /home/cristian/Desktop/Argus-OOP-Project/include/MetricHistory.h
  /home/cristian/Desktop/Argus-OOP-Project/include/NetworkMetric.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -2378,6 +2408,7 @@ CMakeFiles/oop.dir/src/NetworkMetric.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/enable_special_members.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -2428,6 +2459,7 @@ CMakeFiles/oop.dir/src/NetworkMetric.cpp.o
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -2465,6 +2497,7 @@ CMakeFiles/oop.dir/src/NetworkMetric.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h
@@ -2633,6 +2666,7 @@ CMakeFiles/oop.dir/src/ThresholdMetric.cpp.o
  /home/cristian/Desktop/Argus-OOP-Project/src/ThresholdMetric.cpp
  /home/cristian/Desktop/Argus-OOP-Project/include/Exceptions.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Metric.h
+ /home/cristian/Desktop/Argus-OOP-Project/include/MetricHistory.h
  /home/cristian/Desktop/Argus-OOP-Project/include/ThresholdMetric.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
@@ -2658,6 +2692,7 @@ CMakeFiles/oop.dir/src/ThresholdMetric.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/enable_special_members.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -2705,6 +2740,7 @@ CMakeFiles/oop.dir/src/ThresholdMetric.cpp.o
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -2740,6 +2776,7 @@ CMakeFiles/oop.dir/src/ThresholdMetric.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h
@@ -2890,6 +2927,7 @@ CMakeFiles/oop.dir/src/main.cpp.o
  /home/cristian/Desktop/Argus-OOP-Project/include/MemoryMetric.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Menu.h
  /home/cristian/Desktop/Argus-OOP-Project/include/Metric.h
+ /home/cristian/Desktop/Argus-OOP-Project/include/MetricHistory.h
  /home/cristian/Desktop/Argus-OOP-Project/include/NetworkMetric.h
  /home/cristian/Desktop/Argus-OOP-Project/include/ThresholdMetric.h
  /usr/include/alloca.h
@@ -2916,6 +2954,7 @@ CMakeFiles/oop.dir/src/main.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/enable_special_members.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -2964,6 +3003,7 @@ CMakeFiles/oop.dir/src/main.cpp.o
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -2999,6 +3039,7 @@ CMakeFiles/oop.dir/src/main.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h

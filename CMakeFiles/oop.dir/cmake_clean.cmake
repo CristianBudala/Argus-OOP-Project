@@ -18,6 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/oop.dir/src/Menu.cpp.o.d"
   "CMakeFiles/oop.dir/src/Metric.cpp.o"
   "CMakeFiles/oop.dir/src/Metric.cpp.o.d"
+  "CMakeFiles/oop.dir/src/MetricFactory.cpp.o"
+  "CMakeFiles/oop.dir/src/MetricFactory.cpp.o.d"
   "CMakeFiles/oop.dir/src/NetworkMetric.cpp.o"
   "CMakeFiles/oop.dir/src/NetworkMetric.cpp.o.d"
   "CMakeFiles/oop.dir/src/ThresholdMetric.cpp.o"

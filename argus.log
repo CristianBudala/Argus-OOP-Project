@@ -87783,3 +87783,11 @@
 [2026-04-04 15:11:49] [INFO] Machine added: xps_9520
 [2026-04-04 15:12:31] [INFO] Metrics collected for: xps_9520
 [2026-04-04 15:12:31] [INFO] Alert generated for: disk_usage
+[2026-04-06 14:39:43] [INFO] Argus is waking up
+[2026-04-06 14:40:01] [INFO] Machine added: xps_9520
+[2026-04-06 14:40:25] [INFO] Metrics collected for: xps_9520
+[2026-04-06 14:40:25] [INFO] Alert generated for: cpu_usage
+[2026-04-06 14:41:07] [INFO] Machine removed
+[2026-04-28 17:21:54] [INFO] Argus is waking up
+[2026-04-28 17:36:55] [INFO] Argus is waking up
+[2026-04-28 17:37:06] [INFO] Machine added: xps_9520

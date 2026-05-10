@@ -14,6 +14,7 @@ oop: \
   CMakeFiles/oop.dir/src/Machine.cpp.o \
   CMakeFiles/oop.dir/src/Alert.cpp.o \
   CMakeFiles/oop.dir/src/Menu.cpp.o \
+  CMakeFiles/oop.dir/src/MetricFactory.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
@@ -71,6 +72,8 @@ CMakeFiles/oop.dir/src/Machine.cpp.o:
 CMakeFiles/oop.dir/src/Alert.cpp.o:
 
 CMakeFiles/oop.dir/src/Menu.cpp.o:
+
+CMakeFiles/oop.dir/src/MetricFactory.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so:
 

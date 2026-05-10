@@ -390,6 +390,30 @@ src/Metric.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop.dir/build.make CMakeFiles/oop.dir/src/Metric.cpp.s
 .PHONY : src/Metric.cpp.s
 
+src/MetricFactory.o: src/MetricFactory.cpp.o
+.PHONY : src/MetricFactory.o
+
+# target to build an object file
+src/MetricFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop.dir/build.make CMakeFiles/oop.dir/src/MetricFactory.cpp.o
+.PHONY : src/MetricFactory.cpp.o
+
+src/MetricFactory.i: src/MetricFactory.cpp.i
+.PHONY : src/MetricFactory.i
+
+# target to preprocess a source file
+src/MetricFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop.dir/build.make CMakeFiles/oop.dir/src/MetricFactory.cpp.i
+.PHONY : src/MetricFactory.cpp.i
+
+src/MetricFactory.s: src/MetricFactory.cpp.s
+.PHONY : src/MetricFactory.s
+
+# target to generate assembly for a file
+src/MetricFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/oop.dir/build.make CMakeFiles/oop.dir/src/MetricFactory.cpp.s
+.PHONY : src/MetricFactory.cpp.s
+
 src/NetworkMetric.o: src/NetworkMetric.cpp.o
 .PHONY : src/NetworkMetric.o
 
@@ -502,6 +526,9 @@ help:
 	@echo "... src/Metric.o"
 	@echo "... src/Metric.i"
 	@echo "... src/Metric.s"
+	@echo "... src/MetricFactory.o"
+	@echo "... src/MetricFactory.i"
+	@echo "... src/MetricFactory.s"
 	@echo "... src/NetworkMetric.o"
 	@echo "... src/NetworkMetric.i"
 	@echo "... src/NetworkMetric.s"
