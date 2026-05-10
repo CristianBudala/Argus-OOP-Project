@@ -7,4 +7,7 @@ public:
     virtual ~NetworkMetric() = default;
 
     void collect() override;
+
+    std::string getType() const override;
+
 };

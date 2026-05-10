@@ -199,6 +199,8 @@ CMakeFiles/oop.dir/src/MetricFactory.cpp.o: \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/MetricHistory.h \
  /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
  /usr/include/c++/13/bits/deque.tcc \
+ /home/cristian/Desktop/Argus-OOP-Project/src/../include/IMetricObserver.h \
+ /home/cristian/Desktop/Argus-OOP-Project/src/../include/Alert.h \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/CPUMetric.h \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/HardwareMetric.h \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/ThresholdMetric.h \

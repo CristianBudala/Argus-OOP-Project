@@ -9,8 +9,11 @@ void DiskMetric::collect() {
     value = std::uniform_real_distribution<double>{0, maxValue}(gen);
     lastCollected = std::chrono::system_clock::now();
     history.add(value);
+    notifyObservers();
 }
 
 bool DiskMetric::isExceeded() const {
     return getUsagePercent() > threshold;
 }
+
+std::string DiskMetric::getType() const { return "disk"; }

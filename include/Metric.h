@@ -34,6 +34,8 @@ public:
     double getValue() const;
     const std::string& getUnit() const;
 
+    virtual std::string getType() const = 0;
+
     // Print
     friend std::ostream& operator<<(std::ostream& os, const Metric& m);
 

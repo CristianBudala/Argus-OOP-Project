@@ -87791,3 +87791,12 @@
 [2026-04-28 17:21:54] [INFO] Argus is waking up
 [2026-04-28 17:36:55] [INFO] Argus is waking up
 [2026-04-28 17:37:06] [INFO] Machine added: xps_9520
+[2026-05-11 00:18:15] [INFO] Argus is waking up
+[2026-05-11 00:19:17] [INFO] Argus is waking up
+[2026-05-11 00:32:01] [INFO] Argus is waking up
+[2026-05-11 00:32:17] [INFO] Machine added: xps_9520
+[2026-05-11 00:32:39] [INFO] Metric added: cpu_metric to xps_9520
+[2026-05-11 00:32:40] [INFO] Alert generated for: cpu_metric
+[2026-05-11 00:32:40] [INFO] Metrics collected for: xps_9520
+[2026-05-11 00:32:46] [INFO] Alert generated for: cpu_metric
+[2026-05-11 00:32:46] [INFO] Metrics collected for: xps_9520

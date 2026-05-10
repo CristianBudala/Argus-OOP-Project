@@ -1,6 +1,7 @@
 #pragma once
 #include "Machine.h"
 #include "Alert.h"
+#include "AlertObserver.h"
 #include <vector>
 
 class Menu {
@@ -9,6 +10,8 @@ private:
     
     std::vector<Machine*> machines;
     std::vector<Alert> alerts;
+
+    AlertObserver alertObserver{alerts}; // initializat cu referinta la alerts
 
 public:
     ~Menu();

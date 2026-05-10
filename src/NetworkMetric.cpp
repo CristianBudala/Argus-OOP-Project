@@ -9,4 +9,7 @@ void NetworkMetric::collect() {
     value = std::uniform_real_distribution<double>{0, 1000}(gen);
     lastCollected = std::chrono::system_clock::now();
     history.add(value);
+    notifyObservers();
 }
+
+std::string NetworkMetric::getType() const { return "network"; }

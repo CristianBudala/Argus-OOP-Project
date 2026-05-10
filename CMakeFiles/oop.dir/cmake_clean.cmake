@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/oop.dir/link.d"
   "CMakeFiles/oop.dir/src/Alert.cpp.o"
   "CMakeFiles/oop.dir/src/Alert.cpp.o.d"
+  "CMakeFiles/oop.dir/src/AlertObserver.cpp.o"
+  "CMakeFiles/oop.dir/src/AlertObserver.cpp.o.d"
   "CMakeFiles/oop.dir/src/CPUMetric.cpp.o"
   "CMakeFiles/oop.dir/src/CPUMetric.cpp.o.d"
   "CMakeFiles/oop.dir/src/DiskMetric.cpp.o"

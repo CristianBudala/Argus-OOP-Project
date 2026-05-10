@@ -1,6 +1,7 @@
 #pragma once
 #include "IMetricObserver.h"
 #include "Alert.h"
+#include "Logger.h"
 #include <vector>
 
 class AlertObserver : public IMetricObserver {

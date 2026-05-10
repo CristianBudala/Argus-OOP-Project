@@ -1,3 +1,0 @@
-/home/cristian/Desktop/Argus/build/CMakeFiles/Argus.dir
-/home/cristian/Desktop/Argus/build/CMakeFiles/edit_cache.dir
-/home/cristian/Desktop/Argus/build/CMakeFiles/rebuild_cache.dir

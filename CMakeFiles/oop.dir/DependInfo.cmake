@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/cristian/Desktop/Argus-OOP-Project/src/Alert.cpp" "CMakeFiles/oop.dir/src/Alert.cpp.o" "gcc" "CMakeFiles/oop.dir/src/Alert.cpp.o.d"
+  "/home/cristian/Desktop/Argus-OOP-Project/src/AlertObserver.cpp" "CMakeFiles/oop.dir/src/AlertObserver.cpp.o" "gcc" "CMakeFiles/oop.dir/src/AlertObserver.cpp.o.d"
   "/home/cristian/Desktop/Argus-OOP-Project/src/CPUMetric.cpp" "CMakeFiles/oop.dir/src/CPUMetric.cpp.o" "gcc" "CMakeFiles/oop.dir/src/CPUMetric.cpp.o.d"
   "/home/cristian/Desktop/Argus-OOP-Project/src/DiskMetric.cpp" "CMakeFiles/oop.dir/src/DiskMetric.cpp.o" "gcc" "CMakeFiles/oop.dir/src/DiskMetric.cpp.o.d"
   "/home/cristian/Desktop/Argus-OOP-Project/src/HardwareMetric.cpp" "CMakeFiles/oop.dir/src/HardwareMetric.cpp.o" "gcc" "CMakeFiles/oop.dir/src/HardwareMetric.cpp.o.d"

@@ -7,4 +7,5 @@ public:
     explicit DiskMetric(const std::string& name, double maxValue, double threshold);
     void collect() override; // suprascriem metoda virtuala din clasa HardwareMetric
     virtual bool isExceeded() const;
+    std::string getType() const override;
 };

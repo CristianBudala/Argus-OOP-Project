@@ -201,7 +201,9 @@ CMakeFiles/oop.dir/src/Menu.cpp.o: \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/MetricHistory.h \
  /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
  /usr/include/c++/13/bits/deque.tcc \
+ /home/cristian/Desktop/Argus-OOP-Project/src/../include/IMetricObserver.h \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/Alert.h \
+ /home/cristian/Desktop/Argus-OOP-Project/src/../include/AlertObserver.h \
  /home/cristian/Desktop/Argus-OOP-Project/src/../include/Logger.h \
  /usr/include/c++/13/fstream \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \

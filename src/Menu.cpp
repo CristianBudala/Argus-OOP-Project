@@ -52,17 +52,6 @@ void Menu::collectMetrics() {
     for (const auto& m : machines){
         m->collectAll();
         Logger::info("Metrics collected for: " + m->getHostname());
-        for (const auto& metric : m->getMetrics()){
-            ThresholdMetric* tm = dynamic_cast<ThresholdMetric*>(metric);
-            if (tm != nullptr && tm->isExceeded()){
-                HardwareMetric* hm = dynamic_cast<HardwareMetric*>(metric);
-                double usagePercent = hm ? hm->getUsagePercent() : -1.0;
-
-                Alert alert(m->getHostname(), tm->getName(), tm->getValue(), tm->getThreshold(), std::chrono::system_clock::now(), tm->getUnit(), usagePercent);
-                alerts.push_back(alert);
-                Logger::info("Alert generated for: " + tm->getName());
-            }
-        }  
     }
     std::cout << "Metrics collected for all machines.\n";
 }
@@ -107,7 +96,11 @@ void Menu::addMetric() {
         std::cin >> param2;
     }
 
-    machine->addMetric(MetricFactory::create(type, name, param1, param2));
+
+    Metric* m = MetricFactory::create(type, name, param1, param2);
+    m->addObserver(&alertObserver);
+    m->setMachineName(machine->getHostname());
+    machine->addMetric(m);
     Logger::info("Metric added: " + name + " to " + machine->getHostname());
 }
 
