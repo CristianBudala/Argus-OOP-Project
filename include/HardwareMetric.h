@@ -17,4 +17,5 @@ public:
 
     double getUsagePercent() const; // (value / maxValue) * 100
     virtual void collect() = 0; // abstract - decid subclasele cum colecteaza
+    double getMaxValue() const;
 };

@@ -3,6 +3,7 @@
 #include "Alert.h"
 #include "AlertObserver.h"
 #include <vector>
+#include <ftxui/component/screen_interactive.hpp>
 
 class Menu {
 private:
@@ -12,6 +13,16 @@ private:
     std::vector<Alert> alerts;
 
     AlertObserver alertObserver{alerts}; // initializat cu referinta la alerts
+
+    void addMachine();
+    void addMetric();
+    void collectMetrics();
+    void displayMachines() const;
+    void displayAlerts() const;
+    void removeMachine();
+    void registerObservers(Machine* machine);
+    void showAddMachineScreen(ftxui::ScreenInteractive& screen);
+    void showAddMetricScreen(Machine* machine, ftxui::ScreenInteractive& screen);
 
 public:
     ~Menu();
@@ -24,11 +35,5 @@ public:
     Menu(const Menu&) = delete;
     Menu& operator=(const Menu&) = delete;
 
-    void addMachine();
-    void addMetric();
-    void collectMetrics();
-    void displayMachines() const;
-    void displayAlerts() const;
-    void removeMachine();
     void run();
 };

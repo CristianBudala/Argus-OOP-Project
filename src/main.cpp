@@ -28,7 +28,7 @@ int main(){
     */
 
     Menu::getInstance().run();
-
+    //Menu::getInstance().showAddMachineScreen();
 
     Logger::close();
     return 0;

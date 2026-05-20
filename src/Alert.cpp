@@ -25,3 +25,20 @@ const std::string& Alert::getMetricName() const {
 const std::string& Alert::getMachineName() const {
     return machineName;
 }
+
+double Alert::getValue() const {
+    return value;
+}
+
+double Alert::getThreshold() const {
+    return threshold;
+}
+
+double Alert::getUsagePercent() const {
+    return usagePercent;
+}
+
+const std::string& Alert::getUnit() const {
+    return unit;
+}
+

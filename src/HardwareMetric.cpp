@@ -4,3 +4,5 @@ HardwareMetric::HardwareMetric(const std::string& name, const std::string& unit,
     : Metric(name, unit), maxValue(maxValue) {}
 
 double HardwareMetric::getUsagePercent() const { return (value / maxValue) * 100; }
+
+double HardwareMetric::getMaxValue() const { return maxValue; }

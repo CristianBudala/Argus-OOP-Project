@@ -183,3 +183,23 @@ void CPUMetric::collect() {
 **Rezultat:**
 - Înainte: Menu verifica manual threshold-uri după fiecare collect
 - După: Metric notifică automat observerii — Menu nu știe despre threshold-uri
+
+## [4] nlohmann/json — Persistență
+
+**Problema rezolvată:**
+La fiecare rulare, mașinile și metricile se pierdeau. 
+Utilizatorul trebuia să le adauge manual de fiecare dată.
+
+**Soluția — ConfigManager:**
+Clasă statică (ca Logger și Factory) care salvează și 
+încarcă configurația din `config.json`.
+
+**`save()`** — apelat la exit, scrie mașinile cu metricile 
+și alertele în JSON.
+
+**`load()`** — apelat la pornire, reconstruiește mașinile 
+cu MetricFactory și înregistrează observerii automat.
+
+**De ce clasă separată și nu direct în Menu?**
+Modularitate — dacă schimbi formatul (JSON → SQLite), 
+modifici doar ConfigManager, nu Menu.

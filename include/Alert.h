@@ -12,6 +12,10 @@ public:
 
     const std::string& getMetricName() const;
     const std::string& getMachineName() const;
+    double getValue() const;
+    double getThreshold() const;
+    double getUsagePercent() const;
+    const std::string& getUnit() const;
 
     void displayAlert() const;
 

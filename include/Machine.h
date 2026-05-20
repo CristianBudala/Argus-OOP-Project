@@ -23,6 +23,9 @@ class Machine {
         const std::string& getIpAddress() const; // Getter
         const std::vector<Metric*>& getMetrics() const; // Getter
 
+        static std::string detectHostname();
+        static std::string detectIpAddress();
+
     private:
         std::string hostname;
         std::string ipAddress;

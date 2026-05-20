@@ -31,7 +31,23 @@ add_executable(${PROJECT_NAME}
     src/Menu.cpp
     src/MetricFactory.cpp
     src/AlertObserver.cpp
+    src/ConfigManager.cpp
 )
+
+include(FetchContent)
+FetchContent_Declare(
+    ftxui
+    GIT_REPOSITORY https://github.com/ArthurSonzogni/FTXUI
+    GIT_TAG v5.0.0
+)
+FetchContent_MakeAvailable(ftxui)
+
+target_link_libraries(${PROJECT_NAME}
+    PRIVATE ftxui::screen
+    PRIVATE ftxui::dom
+    PRIVATE ftxui::component
+)
+
 
 target_include_directories(${PROJECT_NAME} PRIVATE include)
 
