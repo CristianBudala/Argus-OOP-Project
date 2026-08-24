@@ -5,6 +5,8 @@ project(oop)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
+set(FETCHCONTENT_QUIET OFF)
+
 
 # Treat warnings as errors by default
 if(DEFINED WARNINGS_AS_ERRORS)
@@ -38,7 +40,7 @@ include(FetchContent)
 FetchContent_Declare(
     ftxui
     GIT_REPOSITORY https://github.com/ArthurSonzogni/FTXUI
-    GIT_TAG v5.0.0
+    GIT_TAG main
     GIT_SHALLOW TRUE
     GIT_PROGRESS TRUE
 )
